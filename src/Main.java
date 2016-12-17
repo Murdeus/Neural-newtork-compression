@@ -22,7 +22,7 @@ public class Main extends JFrame{
     public Main() {
         try {
             DEFAULT_IMAGE = ImageIO.read(new File(
-                    "C:/Users/smile/Desktop/001.jpg"));
+                    "way.jpg"));
         } catch (Exception e) {
             e.printStackTrace();
         }
